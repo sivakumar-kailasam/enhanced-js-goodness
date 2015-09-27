@@ -25,18 +25,18 @@ endfunction
 " Plugin bindings
 "
 
-if !exists('g:enhanced-js-syntax_map_keys')
-    let g:enhanced-js-syntax_map_keys = 1
+if !exists('g:enhanced_js_syntax_map_keys')
+    let g:enhanced_js_syntax_map_keys = 1
 endif
 
-if !exists('g:enhanced-js-syntax_map_prefix')
-    let g:enhanced-js-syntax_map_prefix = '<leader>'
+if !exists('g:enhanced_js_syntax_map_prefix')
+    let g:enhanced_js_syntax_map_prefix = '<leader>'
 endif
 
-if g:enhanced-js-syntax_map_keys
-	execute "nnoremap" g:enhanced-js-syntax_map_prefix."ei" ":call EmberExtractImport()<CR>"
-	execute "nnoremap" g:enhanced-js-syntax_map_prefix."es" ":call EmberSimplifyFn()<CR>"
-	execute "nnoremap" g:enhanced-js-syntax_map_prefix."eo" ":call EmberExtractImport()<CR>"
+if g:enhanced_js_syntax_map_keys
+	execute "nnoremap" g:enhanced_js_syntax_map_prefix."ei" ":call EmberExtractImport()<CR>"
+	execute "nnoremap" g:enhanced_js_syntax_map_prefix."es" ":call EmberSimplifyFn()<CR>"
+	execute "nnoremap" g:enhanced_js_syntax_map_prefix."eo" ":call EmberExtractImport()<CR>"
 endif
 
 

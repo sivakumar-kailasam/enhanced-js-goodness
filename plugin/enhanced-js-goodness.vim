@@ -3,15 +3,6 @@
 " @author Sivakumar Kailasam
 "
 
-
-autocmd Filetype javascript setlocal iskeyword-=.
-
-HiLink javaScriptTemplateString     String
-
-syntax keyword javaScriptIdentifier     arguments this let var void yield const
-syntax keyword javaScriptReserved       abstract enum int short boolean export interface static byte extends long super char final native synchronized class float package throws const goto private transient debugger implements protected volatile double import public let
-
-
 "---------------------------------------------------------------------------
 " Ember.JS functions
 "

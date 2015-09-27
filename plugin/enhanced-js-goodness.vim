@@ -8,15 +8,15 @@
 "
 
 function! EmberExtractImport()
-	normal! yyp€ku3dwd€krwd$0iconst {A} = Ember;€kdwwwdbd€kr
+	normal! yyp€ku3dwd€krwd$0iconst {A} = Ember;€kd2wdwd€kr
 endfunction
 
 function! EmberSimplifyFn()
-	normal! vwdyw?= Ember;€kuA,P>>``
+	normal! vwdywmm?= Ember;€kuA,P>>``:noh
 endfunction
 
 function! EmberOptimizeImport()
-	normal! ?= Ember;b%Â€kd000v/}Â€ku$:sort i uÂ€kbÂ€kbÂ€kbu0v/}Â€ku$:s/,//g?{Â€kd0v/}Â€ku$:s/$/,/gAÂ€kb s
+	normal! ?= Ember;0%€kd0v%/{€kb}€ku€ku$:sor €kbt uv/}€ku%$:s/,//g/€kb?{€kd0v/}€ku$:s/%€kb$/,/gA€kb:noh
 endfunction
 
 

@@ -12,7 +12,7 @@ function! EmberExtractImport()
 endfunction
 
 function! EmberSimplifyFn()
-	normal! mmvwdyw?= Ember;^M<80>kuA,^M^[P>>``
+	normal! vwdyw?= Ember;€kuA,P>>``
 endfunction
 
 function! EmberOptimizeImport()

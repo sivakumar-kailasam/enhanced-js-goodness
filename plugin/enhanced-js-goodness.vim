@@ -16,7 +16,7 @@ function! EmberSimplifyFn()
 endfunction
 
 function! EmberOptimizeImport()
-	normal! ?= Ember;0%€kd0v%/{€kb}€ku€ku$:sor €kbt uv/}€ku%$:s/,//g/€kb?{€kd0v/}€ku$:s/%€kb$/,/gA€kb:noh
+	normal! ?= Ember;0%€kd0v€kd€kd%$:s/,/g€kb/g/{€kb€kb?/€kb{€kd0v/}€ku$:sor €kbt uv/}€ku$:s/$/,/gA€kb:noh
 endfunction
 
 

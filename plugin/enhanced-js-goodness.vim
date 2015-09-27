@@ -36,7 +36,7 @@ endif
 if g:enhanced_js_syntax_map_keys
 	execute "nnoremap" g:enhanced_js_syntax_map_prefix."ei" ":call EmberExtractImport()<CR>"
 	execute "nnoremap" g:enhanced_js_syntax_map_prefix."es" ":call EmberSimplifyFn()<CR>"
-	execute "nnoremap" g:enhanced_js_syntax_map_prefix."eo" ":call EmberExtractImport()<CR>"
+	execute "nnoremap" g:enhanced_js_syntax_map_prefix."eo" ":call EmberOptimizeImport()<CR>"
 endif
 
 

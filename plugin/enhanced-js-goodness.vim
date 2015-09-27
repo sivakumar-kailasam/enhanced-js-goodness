@@ -8,7 +8,7 @@
 "
 
 function! EmberExtractImport()
-	normal! yypv$:s/Ember.Â€kb\.//gÂ€ku3dwdÂ€krwd$0iconst {A} = Ember; s
+	normal! yyp€ku3dwd€krwd$0iconst {A} = Ember;€kd
 endfunction
 
 function! EmberSimplifyFn()

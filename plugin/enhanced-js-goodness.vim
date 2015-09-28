@@ -12,7 +12,7 @@ function! EmberExtractImport()
 endfunction
 
 function! EmberSimplifyFn()
-    normal! mmvwdyw?= Ember;€kuA,P>>``:exe %s€kl€kl'€kr€kr/' .€kb€kl€klEmber\.€kr . @0 . '/' .@0€kl€kl €kr€kr . ''€kl/g``
+    normal! mmvwdyw?= Ember;€kuA,P>>``:exe %s€kl€kl'€kr€kr/' .€kb€kl€klEmber\.€kr . @0 . '/' .@0€kl€kl €kr€kr . ''€kl/ge``
 endfunction
 
 function! EmberOptimizeImport()
